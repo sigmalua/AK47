@@ -1,6 +1,6 @@
 local AuthLua = (load or loadstring)(game:HttpGet("https://raw.githubusercontent.com/NewWhitelistService/function/refs/heads/main/function2.lua"))()
 getgenv().Project = function()
-return "AK47.lua"
+return "AK47.LUA"
 end
 if AuthLua:Authenticate(Project()) then
 print("HWID/Key Valid")
